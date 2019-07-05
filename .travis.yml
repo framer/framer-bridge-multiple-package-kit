@@ -1,0 +1,11 @@
+
+language: node_js
+node_js:
+  - 10.15.3
+
+jobs:
+  include:
+    - stage: framer-cli
+      name: "Framer CLI"
+      script: yarn
+      script: node path.js
