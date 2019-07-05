@@ -1,0 +1,36 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "design system",
+    "framer"
+  ],
+  "author": "Framer",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.3"
+  },
+  "paths": [
+    {
+      "componentPath": "design-system/components/Button.tsx",
+      "cmd": "npx framer-cli publish ./framer/button.framerfx --yes"
+    },
+    {
+      "componentPath": "design-system/components/Input.tsx",
+      "cmd": "npx framer-cli publish ./framer/input.framerfx --yes"
+    },
+    {
+      "componentPath": "design-system/components/Toggle.tsx",
+      "cmd": "npx framer-cli publish ./framer/toggle.framerfx --yes"
+    },
+    {
+      "componentPath": "design-system/components/Tooltip.tsx",
+      "cmd": "npx framer-cli publish ./framer/tooltip.framerfx --yes"
+    }
+  ]
+}
