@@ -67,9 +67,9 @@ if (!packageJson["paths"] || packageJson["paths"].length === 0) {
     throw throwMissingCmdField();
   }
 
-  const compiledcomponentPath = new componentPathp(componentPath);
+  const compiledRegex = new RegExp(componentPath);
   const changeDetected = paths.some(change => {
-    return compiledcomponentPath.test(change.file);
+    return compiledRegex.test(change.file);
   });
 
   if (changeDetected) {
