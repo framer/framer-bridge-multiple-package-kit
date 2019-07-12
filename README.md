@@ -14,8 +14,8 @@ This repository links together [folder backed Framer projects](https://www.frame
 #### Cloning
 
 1. [Fork this repository](https://help.github.com/en/articles/fork-a-repo).
-1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally
-1. Run `yarn` to install dependencies
+1. [Clone the forked repository](https://help.github.com/en/articles/cloning-a-repository) locally.
+1. Run `yarn` to install dependencies.
 
 Inside the repository directory, you will find two key folders:
 
