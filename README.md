@@ -45,7 +45,7 @@ As an example of integrating `framer-cli` with an external CI service, there is 
 
 The CI configuration is smart enough to only publish/update the packages where updates to the imported components were changed (i.e. if [Button.tsx](/design-system/components/Button.tsx) was updated, only the [Buttons.framerfx](/framer/buttons.framerfx) Package will be updated in the Framer Team Store.)
 
-You can configure the `paths` field in the `package.json` to configure a different setup when files are chagned.
+You can configure the `paths` field in the `package.json` to configure a different setup when files are changed.
 
 - `componentPath`: The relative path to the file or directory that will trigger the `cmd` script when changes are found.
 - `cmd`: The command to run when a change is found in the `componentPath` directory or file.
